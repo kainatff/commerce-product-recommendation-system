@@ -107,7 +107,7 @@ def visualize_graph(graph):
     plt.axis("off")
     plt.show()
 
-# Main 
+
 if __name__ == "__main__":
     # Path to your dataset
     dataset_path = "/content/ECommerce_consumer behaviour.csv"  # Update with your file path
@@ -130,5 +130,4 @@ if __name__ == "__main__":
             customer_product_graph, customer, user_similarity_df, cleaned_data, top_n=5
         )
 
-    # Display recommendations
     show_recommendations(recommendations)
