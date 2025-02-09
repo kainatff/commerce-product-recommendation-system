@@ -18,7 +18,7 @@ The Customer-Product Recommendation System is a machine learning-based solution 
  Installation
 1. Clone the repository:
    ```sh
-   git clone <repository_link>
+   git clone https://github.com/kainatff/commerce-product-recommendation-system.git
    cd customer-product-recommendation
    ```
 2. Install dependencies:
