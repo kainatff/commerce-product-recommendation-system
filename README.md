@@ -1,6 +1,6 @@
 Customer-Product Recommendation System
 
-Overview
+Overview:
 The Customer-Product Recommendation System is a machine learning-based solution designed to suggest relevant products to customers. It utilizes a bipartite graph structure and cosine similarity to analyze relationships between customers and products, optimizing recommendations based on user behavior.
 
  Features
@@ -30,11 +30,7 @@ The Customer-Product Recommendation System is a machine learning-based solution 
 1. Prepare the dataset with customer-product interactions.
 2. Run the recommendation system:
    ```sh
-   python recommend.py
-   ```
-3. Evaluate the model performance:
-   ```sh
-   python evaluate.py
+   python recommender.py
    ```
 
  Evaluation Metrics
